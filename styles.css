@@ -1,7 +1,10 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('background.png'); /* 使用你上传的图片作为背景 */
+    background-size: cover; /* 让图片覆盖整个背景 */
+    background-position: center; /* 使图片居中 */
+    background-repeat: no-repeat; /* 防止图片重复 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +12,10 @@ body {
     margin: 0;
 }
 
+
 .container {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0.8; /* 整个容器透明度设置为80% */
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
