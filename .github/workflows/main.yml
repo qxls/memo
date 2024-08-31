@@ -1,0 +1,18 @@
+# 在本地创建项目文件夹
+mkdir mynote-app
+cd mynote-app
+
+# 初始化 Git 仓库
+git init
+
+# 添加你的项目文件
+# (将你的 index.html, styles.css, script.js 放在此文件夹中)
+git add .
+git commit -m "Initial commit"
+
+# 连接到 GitHub 远程仓库
+git remote add origin https://github.com/<username>/mynote-app.git
+
+# 推送文件到 GitHub
+git branch -M main
+git push -u origin main
